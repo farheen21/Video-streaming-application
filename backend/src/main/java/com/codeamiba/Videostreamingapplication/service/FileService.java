@@ -1,8 +1,9 @@
 package com.codeamiba.Videostreamingapplication.service;
 
+
 import org.springframework.web.multipart.MultipartFile;
 
-public interface FileService {
 
+public interface FileService {
     String uploadFile(MultipartFile file);
 }

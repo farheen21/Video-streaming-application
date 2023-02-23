@@ -12,7 +12,7 @@ import java.util.Set;
 @Document(value = "Video")
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 public class Video {
 
     @Id
@@ -23,9 +23,11 @@ public class Video {
     private String videourl;
     private String thumbnailUrl;
     private Integer likes;
-    private Integer dislikes;
+    private Integer disLikes;
     private Set<String> tags;
     private VideoStatus videoStatus;
     private Integer viewCount;
     private List<Comment> commentList;
 }
+
+

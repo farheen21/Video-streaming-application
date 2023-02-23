@@ -7,14 +7,14 @@ import org.springframework.data.annotation.Id;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 public class Comment {
     @Id
     private String id;
     private String text;
     private String authorId;
-    private Integer dislikeCount;
-    private Integer likesCount;
+    private Integer disLikeCount;
+    private Integer likeCount;
 
 
 }
